@@ -2,7 +2,8 @@ class MySorting
 {
 
 public static void main(String[] args) {
-    int[] mas = getArray(25);
+    int arrayLen = 25;
+    int[] mas = getArray(arrayLen);
     System.out.println("Исходный массив:");
     System.out.println(printArray(mas));
     heapSort(mas);
