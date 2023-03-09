@@ -57,7 +57,6 @@ public static void heapSort(int[] array) {
     
     int length = array.length;
     
-    // Перемещение от первого не являющегося листом элемента к корню
     for (int i = length / 2 - 1; i >= 0; i--) {
         sifting(array, length, i);
     }
