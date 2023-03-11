@@ -1,11 +1,11 @@
 package lesson03;
 // Класс для разворота двусвязного списка
-public class MyList {
+public class TwoWayList {
     private static Node head;
     private static Node tail;
     
     // Формируем список, состоящий из n случайных целочисленных элементов
-    public MyList(int n) {
+    public TwoWayList(int n) {
         // Создаём первый элемент списка
         if (n > 0) {
             head = new Node();
