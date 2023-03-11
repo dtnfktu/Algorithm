@@ -22,6 +22,9 @@ public class OneWayList {
     // Разворачивем список
     public void revert() {
         Node node = null;
+        if (head == null) {
+            return;
+        }
         Node oldHead = head;
         while (oldHead.next != null) {
             node = oldHead.next;
