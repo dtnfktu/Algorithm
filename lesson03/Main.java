@@ -9,5 +9,7 @@ class Main {
         // Разворачиваем двусвязный список
         mylist.revert();
         System.out.println(mylist.print());
+
+        
     }
 }

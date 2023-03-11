@@ -54,6 +54,5 @@ public class MyList {
         Node previous;
         int value;
     }
-
     
 }
